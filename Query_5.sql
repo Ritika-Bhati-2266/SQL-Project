@@ -65,3 +65,6 @@ WHERE city='Canada';
 -- 4) Show orders placed in November 2023:
 SELECT * FROM Orders
 WHERE order_date BETWEEN '2023-11-01' AND '2023-11-30';
+
+-- 5) Retrieve the total stock of book available:
+SELECT SUM(stock) FROM Books;
