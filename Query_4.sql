@@ -57,3 +57,11 @@ WHERE genre='Fiction';
 -- 2) Find books published after the year 1950.
 SELECT * FROM Books
 WHERE published_year>1950;
+
+-- 3) List all customers from the Canada.
+SELECT *FROM Customers
+WHERE city='Canada';
+
+-- 4) Show orders placed in November 2023:
+SELECT * FROM Orders
+WHERE order_date BETWEEN '2023-11-01' AND '2023-11-30'

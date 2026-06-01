@@ -57,3 +57,7 @@ WHERE genre='Fiction';
 -- 2) Find books published after the year 1950.
 SELECT * FROM Books
 WHERE published_year>1950;
+
+-- 3) List all customers from the Canada.
+SELECT *FROM Customers
+WHERE city='Canada';
